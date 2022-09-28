@@ -15,6 +15,10 @@ Notable features missing from the official Wordle is no hard-mode, keybindings, 
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install dependencies in order to run the project.
+
 ### `npm start`
 
 Runs the app in the development mode.\
