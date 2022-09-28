@@ -30,7 +30,7 @@ export default function WordleLetter({ line, index }: WordleLetterProps) {
       if (actual.indexOf(guess.charAt(index)) > -1) {
         return "#ce93d8";
       } else {
-        return "#aaa";
+        return "#e57373";
       }
     }
   }

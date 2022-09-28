@@ -1,6 +1,7 @@
 import { wordList } from "./words";
 
 export function pickWord() {
+  // seed rng on day to pick 1 word a day
   const rn = randomNumber(new Date().setHours(0, 0, 0, 0))();
 
   const word = wordList[Math.floor(rn * (wordList.length - 1))].toUpperCase();
