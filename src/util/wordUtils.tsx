@@ -5,8 +5,6 @@ export function pickWord() {
 
   const word = wordList[Math.floor(rn * (wordList.length - 1))].toUpperCase();
 
-  console.log(word);
-
   return word;
 }
 
